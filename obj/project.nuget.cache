@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "yJW7u+Sht5qTGjyVsAw2ifQnOFQ8ms531fjEtYflhMndk/jTybIoePD7hR2YjBTZbb+JZ0qE3TouDEzA+DUQ3w==",
+  "success": true,
+  "projectFilePath": "E:\\GL_Training\\gl_dotnet_training\\GL_dotnet_training.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VINNNY\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\VINNNY\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\VINNNY\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\VINNNY\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\VINNNY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\VINNNY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
