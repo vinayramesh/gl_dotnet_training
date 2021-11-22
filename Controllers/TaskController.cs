@@ -66,7 +66,7 @@ namespace GL_dotnet_training.Controllers
         }
 
         [HttpGet]
-        public ActionResult<Tasks> GetAllTasks()
+        public List<Tasks> GetAllTasks()
         {
             return TasksList;
         }
