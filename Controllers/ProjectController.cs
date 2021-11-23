@@ -28,7 +28,7 @@ namespace GL_dotnet_training.Controllers
 
         [Route("{id}")]
         [HttpGet]
-        public dynamic GetProjectByID(int id)
+        public ActionResult<Projects> GetProjectByID(int id)
         {
             var requestedProject = ProjectList.FirstOrDefault(p => p.ID == id);
             if (requestedProject == null)
