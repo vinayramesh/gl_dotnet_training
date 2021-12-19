@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementTestSuite\\ProjectManagementTestSuite.csproj": {}
+  },
+  "projects": {
+    "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementBusiness\\ProjectManagementBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementBusiness\\ProjectManagementBusiness.csproj",
+        "projectName": "ProjectManagementBusiness",
+        "projectPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementBusiness\\ProjectManagementBusiness.csproj",
+        "packagesPath": "C:\\Users\\VINNNY\\.nuget\\packages\\",
+        "outputPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VINNNY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementRepository\\ProjectManagementRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementRepository\\ProjectManagementRepository.csproj",
+        "projectName": "ProjectManagementRepository",
+        "projectPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementRepository\\ProjectManagementRepository.csproj",
+        "packagesPath": "C:\\Users\\VINNNY\\.nuget\\packages\\",
+        "outputPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VINNNY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementBusiness\\ProjectManagementBusiness.csproj": {
+                "projectPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementBusiness\\ProjectManagementBusiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementTestSuite\\ProjectManagementTestSuite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementTestSuite\\ProjectManagementTestSuite.csproj",
+        "projectName": "ProjectManagementTestSuite",
+        "projectPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementTestSuite\\ProjectManagementTestSuite.csproj",
+        "packagesPath": "C:\\Users\\VINNNY\\.nuget\\packages\\",
+        "outputPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementTestSuite\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VINNNY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagement\\ProjectManagement.csproj": {
+                "projectPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagement\\ProjectManagement.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagement\\ProjectManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagement\\ProjectManagement.csproj",
+        "projectName": "ProjectManagement",
+        "projectPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagement\\ProjectManagement.csproj",
+        "packagesPath": "C:\\Users\\VINNNY\\.nuget\\packages\\",
+        "outputPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VINNNY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementBusiness\\ProjectManagementBusiness.csproj": {
+                "projectPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementBusiness\\ProjectManagementBusiness.csproj"
+              },
+              "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementRepository\\ProjectManagementRepository.csproj": {
+                "projectPath": "E:\\GL_Training\\gl_dotnet_training\\VinayRamesh_Sprint_III\\ProjectManagementRepository\\ProjectManagementRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
