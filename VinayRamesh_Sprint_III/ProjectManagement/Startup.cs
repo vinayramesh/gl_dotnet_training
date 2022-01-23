@@ -30,6 +30,12 @@ namespace ProjectManagement
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowLocalOrigin",
+                    builder => builder.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
+            }).AddMvc();
+
             Random rnd = new();
             var databaseName = "ProjectManagement_" + rnd.Next().ToString();
             services.AddDbContext<AppDBContext>(context => { context.UseInMemoryDatabase(databaseName); });
@@ -54,7 +60,7 @@ namespace ProjectManagement
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseRouting();
 
             app.UseAuthorization();
@@ -76,6 +82,7 @@ namespace ProjectManagement
             context.Users.Add(new Users { ID = 1002, FirstName = "John", LastName = "Skeet", Email = "john.skeet@test.com", Password = "Skeet123" });
             context.Users.Add(new Users { ID = 1003, FirstName = "Mark", LastName = "Seeman", Email = "mark.seeman@test.com", Password = "Mark123" });
             context.Users.Add(new Users { ID = 1004, FirstName = "Bob", LastName = "Martin", Email = "bob.martin@test.com", Password = "Bob123" });
+            context.Users.Add(new Users { ID = 1005, FirstName = "AA", LastName = "BB", Email = "a@a.com", Password = "a123" });
 
             //Initial Data for Projects
             context.Projects.Add(new Projects { ID = 1, Name = "Project 1", Detail = "Details for project 1", CreatedOn = DateTime.Now });

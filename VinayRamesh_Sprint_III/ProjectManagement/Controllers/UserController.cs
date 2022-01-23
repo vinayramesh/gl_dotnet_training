@@ -76,7 +76,12 @@ namespace ProjectManagement.Controllers
                 return BadRequest("User not registered!");
             if (userExists.Password != password)
                 return Unauthorized();
-            return Ok();
+            var res = new Users()
+            {
+                ID = userExists.ID,
+                FirstName = userExists.FirstName,
+            };
+            return Ok(res);
         }
 
     }
