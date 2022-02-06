@@ -43,5 +43,23 @@ namespace ProjectManagementRepository
             _context.SaveChanges();
             return tasks;
         }
+
+        public Tasks DeleteTask(int id)
+        {
+            var tasks = _context.Tasks.FirstOrDefault(p => p.ID == id);
+            if (tasks != null)
+            {
+                _context.Tasks.Remove(tasks);
+                _context.SaveChanges();
+                return tasks;
+            }
+            return null;
+        }
+
+
+        public Tasks GetTaskByProjectId(int projectId)
+        {
+            return _context.Tasks.FirstOrDefault(t => t.ProjectID == projectId);
+        }
     }
 }

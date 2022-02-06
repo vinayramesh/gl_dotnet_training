@@ -30,6 +30,18 @@ namespace ProjectManagementRepository
             return project;
         }
 
+        public Projects DeleteProject(int id)
+        {
+            var project = _context.Projects.FirstOrDefault(p => p.ID == id);
+            if (project != null)
+            {
+                _context.Projects.Remove(project);
+                _context.SaveChanges();
+                return project;
+            }
+            return null;
+        }
+
         public List<Projects> GetAllProjects()
         {
             return _context.Projects.ToList();

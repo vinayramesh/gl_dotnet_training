@@ -70,5 +70,14 @@ namespace ProjectManagement.Controllers
                 return BadRequest("Something went wrong. Please try again!");
             return Ok(updatedProject);
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteProject(int id)
+        {
+            var deletedProject = _repository.DeleteProject(id);
+            if (deletedProject == null)
+                return BadRequest("Project doesn't exist!");
+            return Ok(id);
+        }
     }
 }

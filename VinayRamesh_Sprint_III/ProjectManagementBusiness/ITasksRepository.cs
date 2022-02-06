@@ -14,5 +14,7 @@ namespace ProjectManagementBusiness
         List<Tasks> GetAllTasks();
         Tasks GetTaskById(int id);
         Tasks GetTasksByUserProject(int userId, int projectId);
+        Tasks GetTaskByProjectId(int projectId);
+        Tasks DeleteTask(int id);
     }
 }

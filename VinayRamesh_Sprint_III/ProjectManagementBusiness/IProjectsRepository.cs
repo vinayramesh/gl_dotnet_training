@@ -14,5 +14,6 @@ namespace ProjectManagementBusiness
         Projects GetProjectByName(string projectName);
         Projects AddProject(Projects project);
         Projects UpdateProject(Projects project);
+        Projects DeleteProject(int id);
     }
 }
